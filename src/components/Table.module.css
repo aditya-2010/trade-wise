@@ -1,0 +1,87 @@
+.tableComponent {
+  padding: 2.4rem 0;
+  border-radius: 9px;
+  box-shadow: 0 0 18px rgba(128, 128, 128, 0.215);
+}
+
+.table {
+  width: 100%;
+  font-size: 1.6rem;
+  border-collapse: collapse;
+}
+
+.table th {
+  font-weight: 500;
+  color: grey;
+  text-align: left;
+  background-color: rgb(244, 246, 248);
+}
+
+.table th,
+.table td {
+  padding: 1.2rem;
+}
+
+.table tr {
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.table tr:hover {
+  background-color: rgb(244, 246, 248);
+}
+
+.table td span {
+  /* text-transform: uppercase; */
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.table td[id="processing"] span {
+  background-color: rgb(255, 242, 207);
+  color: rgb(93, 69, 2);
+  text-transform: uppercase;
+}
+
+.table td[id="shipped"] span {
+  background-color: rgb(246, 234, 218);
+  color: rgb(181, 71, 8);
+  text-transform: uppercase;
+}
+
+.table td[id="delivered"] span {
+  background-color: rgb(218, 238, 233);
+  color: rgb(11, 129, 90);
+  text-transform: uppercase;
+}
+
+.table td[id="cancelled"] span {
+  background-color: rgb(245, 224, 224);
+  color: rgb(182, 41, 30);
+  text-transform: uppercase;
+}
+
+.table td[id="pending"] span {
+  background-color: rgb(255, 242, 207);
+  color: rgb(93, 69, 2);
+  text-transform: uppercase;
+}
+
+.table td[id="paid"] span {
+  background-color: rgb(218, 238, 233);
+  color: rgb(11, 129, 90);
+  text-transform: uppercase;
+}
+
+.table td[id="failed"] span {
+  background-color: rgb(245, 224, 224);
+  color: rgb(182, 41, 30);
+  text-transform: uppercase;
+}
+
+.table td[id="n/a"] span {
+  background-color: var(--grey-bg);
+  color: rgb(108, 108, 108);
+  text-transform: uppercase;
+}

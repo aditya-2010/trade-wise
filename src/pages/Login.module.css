@@ -1,0 +1,71 @@
+.login {
+  height: 100vh;
+  display: flex;
+  color: rgb(70, 70, 70);
+}
+
+.left {
+  padding: 3.2rem;
+  flex-basis: 10rem;
+  box-shadow: 0 0 18px rgba(128, 128, 128, 0.215);
+}
+
+.left h1 {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+.loginImage {
+  width: 40rem;
+}
+
+.right {
+  width: 100%;
+  padding: 5.8rem;
+
+  display: flex;
+  gap: 3.2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right form {
+  width: 42rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.right form input {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+  font-family: inherit;
+}
+
+.right form span {
+  font-size: 1.4rem;
+  color: grey;
+  position: relative;
+  text-align: center;
+}
+
+.right form span::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  left: 0;
+  top: 50%;
+  border-top: 1px solid rgb(191, 191, 191);
+}
+
+.right form span::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  right: 0;
+  top: 50%;
+  border-top: 1px solid rgb(191, 191, 191);
+}

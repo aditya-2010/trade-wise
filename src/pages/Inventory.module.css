@@ -1,0 +1,26 @@
+.inventory {
+  /* padding-left: 35rem;
+  padding-top: 5rem;
+  padding-right: 5rem; */
+}
+
+.inventory input {
+  margin-left: 0;
+  margin-top: 2.4rem;
+}
+
+.topPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topPanel button {
+  height: fit-content;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
